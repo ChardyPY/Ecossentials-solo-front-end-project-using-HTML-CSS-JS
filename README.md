@@ -19,4 +19,6 @@ Ecossentials aims to provide a user-friendly interface for managing various aspe
 
 ## Contribution
 
--The Whole Project(solo)
+-made the html pages
+-made the styling for each pages
+-made the javascript alert messages for  profile and logout button
