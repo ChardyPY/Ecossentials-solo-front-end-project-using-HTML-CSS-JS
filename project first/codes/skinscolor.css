@@ -1,0 +1,45 @@
+body {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+header {
+    background-color: #f3e5cc;
+}
+
+.openbtn {
+    background-color: #111;
+}
+
+.hero {
+    background-color: #ffe5cc;
+}
+
+.content {
+    background-color: #e3ded5;
+}
+
+.service {
+    background-color: #d0b59d;
+}
+
+.announcement {
+    background-color: #e3ded5;
+    border-color: #d0b59d;
+}
+
+.announcement h3 {
+    color: #937c69;
+}
+
+.announcement p {
+    color: #333;
+}
+
+.announcement strong {
+    color: #937c69;
+}
+
+footer {
+    background-color: #e3ded5;
+}

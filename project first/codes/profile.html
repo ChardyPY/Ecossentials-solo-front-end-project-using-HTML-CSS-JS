@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="skinscolor.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <header>
+      <header class="first-header">
+        <h1 class="see-more1">Ecossentials</h1>
+      </header>
+      <aside class="sidebar">
+            <div class="sidebar-header">
+              <img src="Screenshot (3).png" alt="logo" />
+            </div>
+            <ul class="sidebar-links">
+              <h4>
+                <span>Main Menu</span>
+                <div class="menu-separator"></div>
+              </h4>
+              <li>
+                <a href="overlay.html">
+                  <span class="material-symbols-outlined"> dashboard </span>Services</a>
+              </li>
+              <li>
+                <a href="Overview.html"><span class="material-symbols-outlined"> overview </span>Plans</a>
+              </li>
+              <li>
+                <a href="Monitoring.html"><span class="material-symbols-outlined"> monitoring </span>Processing</a>
+              </li>
+              <h4>
+                <span>General</span>
+                <div class="menu-separator"></div>
+              </h4>
+              <li>
+                <a href="projects.html"><span class="material-symbols-outlined"> folder </span>Projects</a>
+              </li>
+              <li>
+                <a href="announcement.html"><span class="material-symbols-outlined"> flag </span>Announcements</a>
+              </li>
+              <li>
+                <a href="notification.html"><span class="material-symbols-outlined"> notifications_active </span>Notifications</a>
+              </li>
+              <h4>
+                <span>Account</span>
+                <div class="menu-separator"></div>
+              </h4>
+              <li>
+                <a href="profile.html"><span class="material-symbols-outlined"> account_circle </span>Profile</a>
+              </li>
+              <li>
+                <a href="settings.html"><span class="material-symbols-outlined"> settings </span>Settings</a>
+              </li>
+              <li>
+                <a href="#" onclick="logout()"><span class="material-symbols-outlined"> logout </span>Logout</a>
+              </li>
+            </ul>
+      </aside>
+    </header>
+    <div id="main">
+        <section class="content">
+            <div class="profile">
+                <h3>Profile Information</h3>
+                <p><strong>Name:</strong> John Doe</p>
+                <p><strong>Email:</strong> john.doe@example.com</p>
+                <p><strong>Joined Date:</strong> 2024-01-01</p>
+            </div>
+            <div class="profile-edit">
+                <h3>Edit Profile</h3>
+                <form onsubmit="return confirmChanges()" method="GET">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" value="John Doe">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" value="john.doe@example.com">
+                    <button type="submit" class="cta-button">Save Changes</button>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <p>&copy; 2024 My Application. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
